@@ -1,32 +1,14 @@
-# CEB Press - Arduino Software
+This is the code for dwiel's version of the CEB press control code.  It is not
+yet merged into the official version, but will be once it is a bit more stable.
 
-Arduino software to power an open source, high-performance Compresssed Earth Block press.
+It provides a pause button as well as a pressure relief sensor which will stop
+all hydraulics if an over pressure sitation is detected.
 
-Compresssed Earth Block building is the highest quality natural building method.
-See the [CEB Intro Page](http://opensourceecology.org/wiki/CEB_Press) for more introductory
-information about compressed earth blocks.
+More testing will be done this spring/summer with my CEB Press to iron
+everything out.
 
-## How to compile (on Ubuntu Linux)
+TODO:
 
-### Install arduino and scons
-
-    sudo apt-get install -y arduino scons
-
-### Checkout the code and compile with scons
-
-    git clone https://github.com/OSE/ceb-controller.git
-    cd ceb-controller/cebController
-    scons
-
-### Upload to attached Arduino
-
-    scons upload
-
---------------------------------------------------------------------------------------
-
-### Part of the [Global Village Construction Set](http://opensourceecology.org/gvcs.php)
-
-The Global Village Construction Set (GVCS) is an open technological platform that allows
-for the easy fabrication of the 50 different Industrial Machines that it takes to build a
-small civilization with modern comforts.
-
+* update board layout with new board
+* add header for FeF CEB Press pinout
+* more testing of code
